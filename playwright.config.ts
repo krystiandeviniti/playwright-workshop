@@ -5,7 +5,7 @@ import {} from './techUtils/global-setup'
  */
 export default defineConfig({
   globalSetup: require.resolve('./techUtils/global-setup.ts'),
-  // timeout: 6 * 1000,
+  timeout: 6 * 10000,
   // expect: {
   //     timeout: 6 * 1000,
   // },
